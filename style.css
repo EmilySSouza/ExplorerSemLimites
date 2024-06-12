@@ -29,7 +29,9 @@ header {
   background: var(--backgroung-header-white);
   padding-inline: 3.4rem;
 }
-
+header { 
+  width: 7.9rem;
+}
 p {
   color: #312D64;
 }
