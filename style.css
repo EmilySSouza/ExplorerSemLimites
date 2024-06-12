@@ -29,9 +29,11 @@ header {
   background: var(--backgroung-header-white);
   padding-inline: 3.4rem;
 }
-header { 
-  width: 7.9rem;
+
+.textimg img{
+  max-width: 36.4rem;
 }
+
 p {
   color: #312D64;
 }
@@ -196,7 +198,6 @@ footer p {
     align-items: flex-start;
     padding-left: 10.9rem;
     padding-right: 3.2rem;
-    padding-bottom: 10.2rem;
    }
 
    header .textimg {
@@ -207,8 +208,12 @@ footer p {
     align-items: center;
    }
 
+   header button {
+    margin-bottom: 5rem;
+   }
+
    .textimg img {
-    width: 71.9rem;
+    max-width: 75.9rem;
    }
 
    .textimg h1 {
@@ -253,7 +258,7 @@ footer p {
    }
 
    fieldset {
-    margin: auto;
+    padding: 10.9rem;
    }
 
    .fieldset-wrapper legend {
@@ -263,6 +268,5 @@ footer p {
    .input-wrapper input, .input-wrapper textarea {
     min-width: 59.2rem;
    }
-
 
 }
