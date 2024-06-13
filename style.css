@@ -190,7 +190,7 @@ footer p {
   padding: 3.2rem 1.6rem;
 }
 
-@media (min-width: 1383px) {
+@media (min-width: 1440px) {
    header {
     display: flex;
     width: 100%;
@@ -254,7 +254,8 @@ footer p {
    }
 
    form img {
-    display: block
+    display: block;
+    min-width: 56rem;
    }
 
    fieldset {
